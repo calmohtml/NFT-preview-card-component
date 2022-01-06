@@ -1,0 +1,50 @@
+:root {
+  --soft-blue: #8bacda;
+  --cyan: rgb(0, 255, 247);
+  --very-dark-blue-main-BG: #0d192b;
+  --very-dark-blue-card-BG: #14253d;
+  --very-dark-blue-line: #2f415b;
+  --white: #ffffff;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+body {
+  background-color: var(--very-dark-blue-main-BG);
+  color: var(--soft-blue);
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+main {
+  margin: 1rem;
+  min-height: 100vh;
+}
+
+h1 {
+  color: var(--white);
+}
+
+section {
+  padding: 1.5rem;
+  height: 100vh;
+  background-color: var(--very-dark-blue-card-BG);
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}

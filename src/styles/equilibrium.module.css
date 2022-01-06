@@ -1,0 +1,40 @@
+.info h1,
+.info p {
+  margin: 1rem 0;
+}
+
+.info h1 a:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
+
+.images,
+.avatar {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.images span,
+.avatar span {
+  display: flex;
+  justify-content: space-between;
+}
+
+.images span p,
+.avatar span p {
+  margin: 0 0.5rem;
+  align-items: center;
+  display: flex;
+}
+
+.avatar span img {
+  border: 1px solid var(--white);
+  width: 2rem;
+  border-radius: 50%;
+}
+
+.avatar span a:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}

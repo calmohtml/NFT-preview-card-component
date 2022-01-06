@@ -1,0 +1,16 @@
+.equilibrium__bg {
+  text-align: center;
+}
+
+.equilibrium__bg {
+  position: relative;
+  margin: 0 auto;
+}
+
+.equilibrium__bg img {
+  width: 100%;
+}
+
+.equilibrium__bg:hover {
+  opacity: 1;
+}
