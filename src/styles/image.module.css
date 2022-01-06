@@ -1,16 +1,30 @@
-.equilibrium__bg {
-  text-align: center;
-}
-
-.equilibrium__bg {
+.equilibrium__container {
   position: relative;
-  margin: 0 auto;
 }
 
-.equilibrium__bg img {
-  width: 100%;
-}
-
-.equilibrium__bg:hover {
+.equilibrium__container img {
   opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.equilibrium__container img:hover {
+  opacity: 0.3;
+}
+
+.equilibrium__container:hover .equilibrium__middle {
+  opacity: 1;
+}
+
+.equilibrium__middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
